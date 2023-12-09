@@ -21,6 +21,19 @@ public class ModItemGroups {
                         entries.add(ModItems.ORANGE);
                         entries.add(ModItems.GRAPE);
 
+                        entries.add(ModItems.BROCCOLI);
+                        entries.add(ModItems.CAULIFLOWER);
+                        entries.add(ModItems.ASPARAGUS);
+                        entries.add(ModItems.LETTUCE);
+                        entries.add(ModItems.ONION);
+
+                        entries.add(ModItems.ROASTED_BEETROOT);
+                        entries.add(ModItems.ROASTED_CARROT);
+                        entries.add(ModItems.ROASTED_BROCCOLI);
+                        entries.add(ModItems.ROASTED_CAULIFLOWER);
+                        entries.add(ModItems.ROASTED_ASPARAGUS);
+                        entries.add(ModItems.ROASTED_ONION);
+
                         entries.add(ModBlocks.MANGO_LOG);
                         entries.add(ModBlocks.MANGO_PLANKS);
 

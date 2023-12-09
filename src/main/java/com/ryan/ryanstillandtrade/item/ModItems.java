@@ -16,6 +16,20 @@ public class ModItems {
     public static final Item ORANGE = registerItem("orange", new Item(new FabricItemSettings().food(ModFoodComponents.ORANGE)));
     public static final Item GRAPE = registerItem("grape", new Item(new FabricItemSettings().food(ModFoodComponents.GRAPE)));
 
+
+    public static final Item BROCCOLI = registerItem("broccoli", new Item(new FabricItemSettings().food(ModFoodComponents.BROCCOLI)));
+    public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new FabricItemSettings().food(ModFoodComponents.CAULIFLOWER)));
+    public static final Item ASPARAGUS = registerItem("asparagus", new Item(new FabricItemSettings().food(ModFoodComponents.ASPARAGUS)));
+    public static final Item LETTUCE = registerItem("lettuce", new Item(new FabricItemSettings().food(ModFoodComponents.LETTUCE)));
+    public static final Item ONION = registerItem("onion", new Item(new FabricItemSettings().food(ModFoodComponents.ONION)));
+
+    public static final Item ROASTED_BEETROOT = registerItem("roasted_beetroot", new Item(new FabricItemSettings().food(ModFoodComponents.ROASTED_BEETROOT)));
+    public static final Item ROASTED_CARROT = registerItem("roasted_carrot", new Item(new FabricItemSettings().food(ModFoodComponents.ROASTED_CARROT)));
+    public static final Item ROASTED_BROCCOLI = registerItem("roasted_broccoli", new Item(new FabricItemSettings().food(ModFoodComponents.ROASTED_BROCCOLI)));
+    public static final Item ROASTED_CAULIFLOWER = registerItem("roasted_cauliflower", new Item(new FabricItemSettings().food(ModFoodComponents.ROASTED_CAULIFLOWER)));
+    public static final Item ROASTED_ASPARAGUS = registerItem("roasted_asparagus", new Item(new FabricItemSettings().food(ModFoodComponents.ROASTED_ASPARAGUS)));
+    public static final Item ROASTED_ONION = registerItem("roasted_onion", new Item(new FabricItemSettings().food(ModFoodComponents.ROASTED_ONION)));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(RyansTillAndTrade.MOD_ID, name), item);
     }
