@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "ryanstillandtrade",
+	"version": "${version}",
+	"name": "Ryans Till And Trade",
+	"description": "Till and Trade changes the way you progress through the game by utilising a progression tree like trading system",
+	"authors": [
+		"RyanSenpai22"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ryanstillandtrade/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ryan.tillandtrade.RyansTillAndTrade"
+		],
+		"client": [
+			"com.ryan.tillandtrade.RyansTillAndTradeClient"
+		],
+		"fabric-datagen": [
+			"com.ryan.tillandtrade.RyansTillAndTradeDataGenerator"
+		]
+	},
+	"mixins": [
+		"ryanstillandtrade.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.1",
+		"minecraft": "~1.20.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
