@@ -15,25 +15,36 @@ public class ModItemGroups {
             new Identifier(RyansTillAndTrade.MOD_ID, "tomato"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ryanstillandtrade_group"))
                     .icon(() -> new ItemStack(ModItems.TOMATO)).entries((displayContext, entries) -> {
+                        //FRUITS
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.MANGO);
                         entries.add(ModItems.PINEAPPLE);
                         entries.add(ModItems.ORANGE);
                         entries.add(ModItems.GRAPE);
-
+                        //VEGIES
                         entries.add(ModItems.BROCCOLI);
                         entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.ASPARAGUS);
                         entries.add(ModItems.LETTUCE);
                         entries.add(ModItems.ONION);
-
+                        //ROASTED
                         entries.add(ModItems.ROASTED_BEETROOT);
                         entries.add(ModItems.ROASTED_CARROT);
                         entries.add(ModItems.ROASTED_BROCCOLI);
                         entries.add(ModItems.ROASTED_CAULIFLOWER);
                         entries.add(ModItems.ROASTED_ASPARAGUS);
                         entries.add(ModItems.ROASTED_ONION);
+                        //OTHER
+                        entries.add(ModItems.CHEESE);
+                        entries.add(ModItems.BUTTER);
+                        entries.add(ModItems.POTATO_SLICES);
+                        entries.add(ModItems.MASHED_POTATO);
+                        entries.add(ModItems.RICE);
+                        entries.add(ModItems.BAMBOO_SHOOTS);
+                        entries.add(ModItems.FRIED_EGG);
+                        entries.add(ModItems.OMELETE);
 
+                        //REST
                         entries.add(ModBlocks.MANGO_LOG);
                         entries.add(ModBlocks.MANGO_PLANKS);
 
