@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.MANGO);
 
                         entries.add(ModBlocks.MANGO_LOG);
+                        entries.add(ModBlocks.MANGO_PLANKS);
 
                     }).build());
 

@@ -17,7 +17,10 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class ModBlocks {
 
     public static final Block MANGO_LOG = registerBlock("mango_log",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_LOG)));
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block MANGO_PLANKS = registerBlock("mango_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
 
     private static Block registerBlock(String name, Block block) {
