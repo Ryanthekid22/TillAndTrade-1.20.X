@@ -23,6 +23,9 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.MANGO, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PINEAPPLE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORANGE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GRAPE, Models.GENERATED);
 
     }
 }

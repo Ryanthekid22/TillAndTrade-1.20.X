@@ -17,6 +17,9 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.TOMATO)).entries((displayContext, entries) -> {
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.MANGO);
+                        entries.add(ModItems.PINEAPPLE);
+                        entries.add(ModItems.ORANGE);
+                        entries.add(ModItems.GRAPE);
 
                         entries.add(ModBlocks.MANGO_LOG);
                         entries.add(ModBlocks.MANGO_PLANKS);
