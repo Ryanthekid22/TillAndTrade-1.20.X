@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.ryan.tillandtrade.RyansTillAndTrade"
+			"com.ryan.ryanstillandtrade.RyansTillAndTrade"
 		],
 		"client": [
-			"com.ryan.tillandtrade.RyansTillAndTradeClient"
+			"com.ryan.ryanstillandtrade.RyansTillAndTradeClient"
 		],
 		"fabric-datagen": [
-			"com.ryan.tillandtrade.RyansTillAndTradeDataGenerator"
+			"com.ryan.ryanstillandtrade.RyansTillAndTradeDataGenerator"
 		]
 	},
 	"mixins": [

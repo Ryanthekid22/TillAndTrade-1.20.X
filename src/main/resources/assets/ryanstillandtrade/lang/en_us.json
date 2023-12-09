@@ -1,3 +1,8 @@
 {
-  "item.ryanstillandtrade.tomato": "Tomato"
+  "item.ryanstillandtrade.tomato": "Tomato",
+  "item.ryanstillandtrade.mango": "Mango",
+
+  "block.ryanstillandtrade.mango_log": "Mango Log",
+
+  "itemgroup.ryanstillandtrade_group": "Ryans Till and Trade"
 }
