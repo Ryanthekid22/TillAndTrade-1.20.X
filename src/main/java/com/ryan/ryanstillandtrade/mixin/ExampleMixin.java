@@ -1,4 +1,4 @@
-package com.ryan.tillandtrade.mixin;
+package com.ryan.ryanstillandtrade.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

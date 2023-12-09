@@ -137,9 +137,9 @@
 [13:35:40] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.networking.CommonPacketsImpl::init for mod fabric-networking-api-v1 (key main)
 [13:35:40] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.client.indigo.Indigo for mod fabric-renderer-indigo (key client)
 [13:35:40] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.client.rendering.v0.RenderingCallbackInvoker for mod fabric-rendering-v0 (key client)
-[13:35:40] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer com.ryan.tillandtrade.RyansTillAndTradeDataGenerator for mod ryanstillandtrade (key fabric-datagen)
-[13:35:40] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer com.ryan.tillandtrade.RyansTillAndTradeClient for mod ryanstillandtrade (key client)
-[13:35:40] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer com.ryan.tillandtrade.RyansTillAndTrade for mod ryanstillandtrade (key main)
+[13:35:40] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer com.ryan.ryanstillandtrade.RyansTillAndTradeDataGenerator for mod ryanstillandtrade (key fabric-datagen)
+[13:35:40] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer com.ryan.ryanstillandtrade.RyansTillAndTradeClient for mod ryanstillandtrade (key client)
+[13:35:40] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer com.ryan.ryanstillandtrade.RyansTillAndTrade for mod ryanstillandtrade (key main)
 [13:35:40] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.gametest.FabricGameTestModInitializer for mod fabric-gametest-api-v1 (key main)
 [13:35:40] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/senpai/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
 [13:35:40] [main/DEBUG] (FabricLoader/Mixin) Error cleaning class output directory: .mixin.out

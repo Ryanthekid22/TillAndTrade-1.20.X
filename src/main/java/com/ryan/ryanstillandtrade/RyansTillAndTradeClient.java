@@ -1,4 +1,4 @@
-package com.ryan.tillandtrade;
+package com.ryan.ryanstillandtrade;
 
 import net.fabricmc.api.ClientModInitializer;
 

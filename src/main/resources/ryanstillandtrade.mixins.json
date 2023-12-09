@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.ryan.tillandtrade.mixin",
+	"package": "com.ryan.ryanstillandtrade.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
 		"ExampleMixin"
