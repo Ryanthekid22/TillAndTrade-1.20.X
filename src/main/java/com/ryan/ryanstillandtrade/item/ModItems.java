@@ -36,7 +36,14 @@ public class ModItems {
     public static final Item RICE = registerItem("rice", new Item(new FabricItemSettings().food(ModFoodComponents.RICE)));
     public static final Item BAMBOO_SHOOTS = registerItem("bamboo_shoots", new Item(new FabricItemSettings().food(ModFoodComponents.BAMBOO_SHOOTS)));
     public static final Item FRIED_EGG = registerItem("fried_egg", new Item(new FabricItemSettings().food(ModFoodComponents.FRIED_EGG)));
-    public static final Item OMELETE = registerItem("omelete", new Item(new FabricItemSettings().food(ModFoodComponents.OMELETE)));
+    public static final Item OMELETTE = registerItem("omelette", new Item(new FabricItemSettings().food(ModFoodComponents.OMELETTE)));
+    //JAM
+    public static final Item KETCHUP = registerItem("ketchup", new Item(new FabricItemSettings().food(ModFoodComponents.KETCHUP)));
+    public static final Item APPLE_SAUCE = registerItem("apple_sauce", new Item(new FabricItemSettings().food(ModFoodComponents.APPLE_SAUCE)));
+    public static final Item MANGO_JAM = registerItem("mango_jam", new Item(new FabricItemSettings().food(ModFoodComponents.MANGO_JAM)));
+    public static final Item GRAPE_JAM = registerItem("grape_jam", new Item(new FabricItemSettings().food(ModFoodComponents.GRAPE_JAM)));
+    public static final Item SWEET_BERRY_JAM = registerItem("sweet_berry_jam", new Item(new FabricItemSettings().food(ModFoodComponents.SWEET_BERRY_JAM)));
+    public static final Item GLOW_BERRY_JAM = registerItem("glow_berry_jam", new Item(new FabricItemSettings().food(ModFoodComponents.GLOW_BERRY_JAM)));
 
 
     private static Item registerItem(String name, Item item){

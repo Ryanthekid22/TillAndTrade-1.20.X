@@ -42,7 +42,14 @@ public class ModItemGroups {
                         entries.add(ModItems.RICE);
                         entries.add(ModItems.BAMBOO_SHOOTS);
                         entries.add(ModItems.FRIED_EGG);
-                        entries.add(ModItems.OMELETE);
+                        entries.add(ModItems.OMELETTE);
+                        //JAM
+                        entries.add(ModItems.KETCHUP);
+                        entries.add(ModItems.APPLE_SAUCE);
+                        entries.add(ModItems.MANGO_JAM);
+                        entries.add(ModItems.GRAPE_JAM);
+                        entries.add(ModItems.SWEET_BERRY_JAM);
+                        entries.add(ModItems.GLOW_BERRY_JAM);
 
                         //REST
                         entries.add(ModBlocks.MANGO_LOG);
