@@ -50,6 +50,20 @@ public class ModItemGroups {
                         entries.add(ModItems.GRAPE_JAM);
                         entries.add(ModItems.SWEET_BERRY_JAM);
                         entries.add(ModItems.GLOW_BERRY_JAM);
+                        //JUICES
+                        entries.add(ModItems.CARROT_JUICE);
+                        entries.add(ModItems.BEETROOT_JUICE);
+                        entries.add(ModItems.MELON_JUICE);
+                        entries.add(ModItems.GRAPE_JUICE);
+                        entries.add(ModItems.PINEAPPLE_JUICE);
+                        entries.add(ModItems.TOMATO_JUICE);
+                        entries.add(ModItems.MANGO_JUICE);
+                        entries.add(ModItems.ORANGE_JUICE);
+                        entries.add(ModItems.APPLE_JUICE);
+                        entries.add(ModItems.GLOW_BERRY_JUICE);
+                        entries.add(ModItems.SWEET_BERRY_JUICE);
+                        entries.add(ModItems.KELP_JUICE);
+
 
                         //REST
                         entries.add(ModBlocks.MANGO_LOG);

@@ -38,4 +38,18 @@ public class ModFoodComponents {
     public static final FoodComponent GRAPE_JAM = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
     public static final FoodComponent SWEET_BERRY_JAM = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
     public static final FoodComponent GLOW_BERRY_JAM = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    //JUICES
+    public static final FoodComponent CARROT_JUICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent BEETROOT_JUICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent MELON_JUICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent GRAPE_JUICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent PINEAPPLE_JUICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent TOMATO_JUICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent MANGO_JUICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent ORANGE_JUICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent APPLE_JUICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent GLOW_BERRY_JUICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent SWEET_BERRY_JUICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent KELP_JUICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+
 }

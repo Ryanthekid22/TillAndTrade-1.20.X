@@ -56,6 +56,19 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GRAPE_JAM, Models.GENERATED);
         itemModelGenerator.register(ModItems.SWEET_BERRY_JAM, Models.GENERATED);
         itemModelGenerator.register(ModItems.GLOW_BERRY_JAM, Models.GENERATED);
+        //JUICES
+        itemModelGenerator.register(ModItems.CARROT_JUICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BEETROOT_JUICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MELON_JUICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GRAPE_JUICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PINEAPPLE_JUICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TOMATO_JUICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MANGO_JUICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORANGE_JUICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.APPLE_JUICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GLOW_BERRY_JUICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SWEET_BERRY_JUICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KELP_JUICE, Models.GENERATED);
 
     }
 }
