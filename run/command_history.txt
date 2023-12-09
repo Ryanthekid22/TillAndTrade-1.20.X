@@ -1,0 +1,40 @@
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/give @s ryanstillandtrade:tomato 5
+/effect give @s minecraft:hunger 1 255
+/effect give @s minecraft:hunger 10 255
+/gamemode creative
+/gamemode survival
+/tp @s ~ ~20 ~
+/data get entity @s
+/tp @s ~ ~20 ~
+/data get entity @s
+/tp @s ~ ~20 ~
+/kill
+/give @s ryanstillandtrade:tomato 5
+/debug function
+/tick rate 2000
+/tp @s ~ ~20 ~
+/tick rate 20
+/tp @s ~ ~20 ~
+/data get entity @s
+/tp @s ~ ~20 ~
+/data get entity @s
+/tp @s ~ ~20 ~
+/effect give @s minecraft:hunger 20 255
+/data get entity @s
+/give @s ryanstillandtrade:tomato
+/give @s ryanstillandtrade:tomato 4
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode spectator
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative

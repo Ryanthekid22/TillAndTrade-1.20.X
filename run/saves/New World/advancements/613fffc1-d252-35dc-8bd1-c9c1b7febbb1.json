@@ -1,0 +1,39 @@
+{
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2023-12-09 22:43:49 +1000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2023-12-09 22:43:49 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-12-09 22:43:49 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2023-12-09 22:43:49 +1000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna": "2023-12-09 22:43:51 +1000"
+    },
+    "done": false
+  },
+  "ryanstillandtrade:recipes/misc/mango_planks_from_mango_log": {
+    "criteria": {
+      "has_mango_log": "2023-12-09 22:43:49 +1000"
+    },
+    "done": true
+  },
+  "DataVersion": 3698
+}
