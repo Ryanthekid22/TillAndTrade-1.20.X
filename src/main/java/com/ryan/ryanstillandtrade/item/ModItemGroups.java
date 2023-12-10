@@ -91,6 +91,18 @@ public class ModItemGroups {
                         entries.add(ModItems.FISH_SUSHI);
                         entries.add(ModItems.CHICKEN_SUSHI);
                         entries.add(ModItems.VEGGIE_SUSHI);
+                        //MEAT
+                        entries.add(ModItems.HAM);
+                        entries.add(ModItems.COOKED_HAM);
+                        entries.add(ModItems.BACON);
+                        entries.add(ModItems.COOKED_BACON);
+                        entries.add(ModItems.PATTY);
+                        entries.add(ModItems.COOKED_PATTY);
+                        entries.add(ModItems.DRUMSTICK);
+                        entries.add(ModItems.COOKED_DRUMSTICK);
+                        entries.add(ModItems.DUCK);
+                        entries.add(ModItems.COOKED_DUCK);
+                        entries.add(ModItems.FISH_FILLET);
 
 
                         //REST

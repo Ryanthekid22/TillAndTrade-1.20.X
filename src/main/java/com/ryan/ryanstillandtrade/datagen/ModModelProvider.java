@@ -97,6 +97,19 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FISH_SUSHI, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHICKEN_SUSHI, Models.GENERATED);
         itemModelGenerator.register(ModItems.VEGGIE_SUSHI, Models.GENERATED);
+        //MEAT
+        itemModelGenerator.register(ModItems.HAM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_HAM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BACON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_BACON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PATTY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_PATTY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DRUMSTICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_DRUMSTICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DUCK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_DUCK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FISH_FILLET, Models.GENERATED);
+
 
 
     }

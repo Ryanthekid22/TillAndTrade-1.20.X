@@ -85,7 +85,18 @@ public class ModItems {
     public static final Item FISH_SUSHI = registerItem("fish_sushi", new Item(new FabricItemSettings().food(ModFoodComponents.FISH_SUSHI)));
     public static final Item CHICKEN_SUSHI = registerItem("chicken_sushi", new Item(new FabricItemSettings().food(ModFoodComponents.CHICKEN_SUSHI)));
     public static final Item VEGGIE_SUSHI = registerItem("veggie_sushi", new Item(new FabricItemSettings().food(ModFoodComponents.VEGGIE_SUSHI)));
-
+    //MEAT
+    public static final Item HAM = registerItem("ham", new Item(new FabricItemSettings().food(ModFoodComponents.HAM)));
+    public static final Item COOKED_HAM = registerItem("cooked_ham", new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_HAM)));
+    public static final Item BACON = registerItem("bacon", new Item(new FabricItemSettings().food(ModFoodComponents.BACON)));
+    public static final Item COOKED_BACON = registerItem("cooked_bacon", new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_BACON)));
+    public static final Item PATTY = registerItem("patty", new Item(new FabricItemSettings().food(ModFoodComponents.PATTY)));
+    public static final Item COOKED_PATTY = registerItem("cooked_patty", new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_PATTY)));
+    public static final Item DRUMSTICK = registerItem("drumstick", new Item(new FabricItemSettings().food(ModFoodComponents.DRUMSTICK)));
+    public static final Item COOKED_DRUMSTICK = registerItem("cooked_drumstick", new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_DRUMSTICK)));
+    public static final Item DUCK = registerItem("duck", new Item(new FabricItemSettings().food(ModFoodComponents.DUCK)));
+    public static final Item COOKED_DUCK = registerItem("cooked_duck", new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_DUCK)));
+    public static final Item FISH_FILLET = registerItem("fish_fillet", new Item(new FabricItemSettings().food(ModFoodComponents.FISH_FILLET)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(RyansTillAndTrade.MOD_ID, name), item);

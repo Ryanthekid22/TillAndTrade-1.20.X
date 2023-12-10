@@ -79,6 +79,18 @@ public class ModFoodComponents {
     public static final FoodComponent FISH_SUSHI = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
     public static final FoodComponent CHICKEN_SUSHI = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
     public static final FoodComponent VEGGIE_SUSHI = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    //MEAT
+    public static final FoodComponent HAM = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent COOKED_HAM = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent BACON = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent COOKED_BACON = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent PATTY = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent COOKED_PATTY = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent DRUMSTICK = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent COOKED_DRUMSTICK = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent DUCK = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent COOKED_DUCK = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent FISH_FILLET = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
 
 
 }
