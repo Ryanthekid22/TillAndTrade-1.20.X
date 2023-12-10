@@ -131,6 +131,16 @@ public class ModItems {
     public static final Item CUT_TOPAZ = registerItem("cut_topaz", new Item(new FabricItemSettings()));
     public static final Item CUT_SAPPHIRE = registerItem("cut_sapphire", new Item(new FabricItemSettings()));
     public static final Item CUT_AMETHYST = registerItem("cut_amethyst", new Item(new FabricItemSettings()));
+    //GROWABLES
+    public static final Item MANGO_TREE_SAPLING = registerItem("mango_tree_sapling", new Item(new FabricItemSettings()));
+    public static final Item ORANGE_TREE_SAPLING = registerItem("orange_tree_sapling", new Item(new FabricItemSettings()));
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", new Item(new FabricItemSettings()));
+    public static final Item PINEAPPLE_SEEDS = registerItem("pineapple_seeds", new Item(new FabricItemSettings()));
+    public static final Item GRAPE_SEEDS = registerItem("grape_seeds", new Item(new FabricItemSettings()));
+    public static final Item BROCCOLI_SEEDS = registerItem("broccoli_seeds", new Item(new FabricItemSettings()));
+    public static final Item CAULIFLOWER_SEEDS = registerItem("cauliflower_seeds", new Item(new FabricItemSettings()));
+    public static final Item ASPARAGUS_SEEDS = registerItem("asparagus_seeds", new Item(new FabricItemSettings()));
+    public static final Item LETTUCE_SEEDS = registerItem("lettuce_seeds", new Item(new FabricItemSettings()));
 
 
 

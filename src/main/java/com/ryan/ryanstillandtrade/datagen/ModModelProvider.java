@@ -143,6 +143,16 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CUT_TOPAZ, Models.GENERATED);
         itemModelGenerator.register(ModItems.CUT_SAPPHIRE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CUT_AMETHYST, Models.GENERATED);
+        //GROWABLES
+        itemModelGenerator.register(ModItems.MANGO_TREE_SAPLING, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORANGE_TREE_SAPLING, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TOMATO_SEEDS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PINEAPPLE_SEEDS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GRAPE_SEEDS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BROCCOLI_SEEDS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CAULIFLOWER_SEEDS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ASPARAGUS_SEEDS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LETTUCE_SEEDS, Models.GENERATED);
 
     }
 }

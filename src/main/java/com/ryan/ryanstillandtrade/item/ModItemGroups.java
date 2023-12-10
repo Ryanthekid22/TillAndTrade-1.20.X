@@ -137,6 +137,16 @@ public class ModItemGroups {
                         entries.add(ModItems.CUT_TOPAZ);
                         entries.add(ModItems.CUT_SAPPHIRE);
                         entries.add(ModItems.CUT_AMETHYST);
+                        //GROWABLES
+                        entries.add(ModItems.MANGO_TREE_SAPLING);
+                        entries.add(ModItems.ORANGE_TREE_SAPLING);
+                        entries.add(ModItems.TOMATO_SEEDS);
+                        entries.add(ModItems.PINEAPPLE_SEEDS);
+                        entries.add(ModItems.GRAPE_SEEDS);
+                        entries.add(ModItems.BROCCOLI_SEEDS);
+                        entries.add(ModItems.CAULIFLOWER_SEEDS);
+                        entries.add(ModItems.ASPARAGUS_SEEDS);
+                        entries.add(ModItems.LETTUCE_SEEDS);
 
                         //REST
                         entries.add(ModBlocks.MANGO_LOG);
