@@ -51,5 +51,34 @@ public class ModFoodComponents {
     public static final FoodComponent GLOW_BERRY_JUICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
     public static final FoodComponent SWEET_BERRY_JUICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
     public static final FoodComponent KELP_JUICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    //MEALS
+    public static final FoodComponent FRIED_RICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent FISH_AND_CHIPS = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent FRUIT_SALAD = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent CARROT_CAKE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent APPLE_PIE = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    //SANDWICHES
+    public static final FoodComponent FISH_BURGER = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent VEGGIE_SANDWICH = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent HAM_AND_CHEESE_SANDWICH = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent BACONATOR = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent BACON_LETTUCE_TOMATO = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent HAMBURGER = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent GRAPE_JAM_SANDWICH = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent SWEET_BERRY_JAM_SANDWICH = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent GLOW_BERRY_JAM_SANDWICH = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent MANGO_JAM_SANDWICH = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    //SOUPS
+    public static final FoodComponent ONION_SOUP = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent VEGGIE_SOUP = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent CHICKEN_SOUP = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent FISH_SOUP = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent PUMPKIN_SOUP = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent TOMATO_SOUP = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    //SUSHI
+    public static final FoodComponent FISH_SUSHI = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent CHICKEN_SUSHI = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+    public static final FoodComponent VEGGIE_SUSHI = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build();
+
 
 }

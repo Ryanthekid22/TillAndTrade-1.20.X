@@ -63,6 +63,34 @@ public class ModItemGroups {
                         entries.add(ModItems.GLOW_BERRY_JUICE);
                         entries.add(ModItems.SWEET_BERRY_JUICE);
                         entries.add(ModItems.KELP_JUICE);
+                        //MEALS
+                        entries.add(ModItems.FRIED_RICE);
+                        entries.add(ModItems.FISH_AND_CHIPS);
+                        entries.add(ModItems.FRUIT_SALAD);
+                        entries.add(ModItems.CARROT_CAKE);
+                        entries.add(ModItems.APPLE_PIE);
+                        //SANDWICHES
+                        entries.add(ModItems.FISH_BURGER);
+                        entries.add(ModItems.VEGGIE_SANDWICH);
+                        entries.add(ModItems.HAM_AND_CHEESE_SANDWICH);
+                        entries.add(ModItems.BACONATOR);
+                        entries.add(ModItems.BACON_LETTUCE_TOMATO);
+                        entries.add(ModItems.HAMBURGER);
+                        entries.add(ModItems.GRAPE_JAM_SANDWICH);
+                        entries.add(ModItems.SWEET_BERRY_JAM_SANDWICH);
+                        entries.add(ModItems.GLOW_BERRY_JAM_SANDWICH);
+                        entries.add(ModItems.MANGO_JAM_SANDWICH);
+                        //SOUPS
+                        entries.add(ModItems.ONION_SOUP);
+                        entries.add(ModItems.VEGGIE_SOUP);
+                        entries.add(ModItems.CHICKEN_SOUP);
+                        entries.add(ModItems.FISH_SOUP);
+                        entries.add(ModItems.PUMPKIN_SOUP);
+                        entries.add(ModItems.TOMATO_SOUP);
+                        //SUSHI
+                        entries.add(ModItems.FISH_SUSHI);
+                        entries.add(ModItems.CHICKEN_SUSHI);
+                        entries.add(ModItems.VEGGIE_SUSHI);
 
 
                         //REST

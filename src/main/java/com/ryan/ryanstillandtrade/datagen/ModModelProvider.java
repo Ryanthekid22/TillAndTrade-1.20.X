@@ -69,6 +69,35 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GLOW_BERRY_JUICE, Models.GENERATED);
         itemModelGenerator.register(ModItems.SWEET_BERRY_JUICE, Models.GENERATED);
         itemModelGenerator.register(ModItems.KELP_JUICE, Models.GENERATED);
+        //MEALS
+        itemModelGenerator.register(ModItems.FRIED_RICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FISH_AND_CHIPS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FRUIT_SALAD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CARROT_CAKE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.APPLE_PIE, Models.GENERATED);
+        //SANDWICHES
+        itemModelGenerator.register(ModItems.FISH_BURGER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.VEGGIE_SANDWICH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HAM_AND_CHEESE_SANDWICH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BACONATOR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BACON_LETTUCE_TOMATO, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HAMBURGER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GRAPE_JAM_SANDWICH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SWEET_BERRY_JAM_SANDWICH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GLOW_BERRY_JAM_SANDWICH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MANGO_JAM_SANDWICH, Models.GENERATED);
+        //SOUPS
+        itemModelGenerator.register(ModItems.ONION_SOUP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.VEGGIE_SOUP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHICKEN_SOUP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FISH_SOUP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PUMPKIN_SOUP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TOMATO_SOUP, Models.GENERATED);
+        //SUSHI
+        itemModelGenerator.register(ModItems.FISH_SUSHI, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHICKEN_SUSHI, Models.GENERATED);
+        itemModelGenerator.register(ModItems.VEGGIE_SUSHI, Models.GENERATED);
+
 
     }
 }

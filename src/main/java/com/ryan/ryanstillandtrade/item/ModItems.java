@@ -57,6 +57,34 @@ public class ModItems {
     public static final Item GLOW_BERRY_JUICE = registerItem("glow_berry_juice", new Item(new FabricItemSettings().food(ModFoodComponents.GLOW_BERRY_JUICE)));
     public static final Item SWEET_BERRY_JUICE = registerItem("sweet_berry_juice", new Item(new FabricItemSettings().food(ModFoodComponents.SWEET_BERRY_JUICE)));
     public static final Item KELP_JUICE = registerItem("kelp_juice", new Item(new FabricItemSettings().food(ModFoodComponents.KELP_JUICE)));
+    //MEALS
+    public static final Item FRIED_RICE = registerItem("fried_rice", new Item(new FabricItemSettings().food(ModFoodComponents.FRIED_RICE)));
+    public static final Item FISH_AND_CHIPS = registerItem("fish_and_chips", new Item(new FabricItemSettings().food(ModFoodComponents.FISH_AND_CHIPS)));
+    public static final Item FRUIT_SALAD = registerItem("fruit_salad", new Item(new FabricItemSettings().food(ModFoodComponents.FRUIT_SALAD)));
+    public static final Item CARROT_CAKE = registerItem("carrot_cake", new Item(new FabricItemSettings().food(ModFoodComponents.CARROT_CAKE)));
+    public static final Item APPLE_PIE = registerItem("apple_pie", new Item(new FabricItemSettings().food(ModFoodComponents.APPLE_PIE)));
+    //SANDWICHES
+    public static final Item FISH_BURGER = registerItem("fish_burger", new Item(new FabricItemSettings().food(ModFoodComponents.FISH_BURGER)));
+    public static final Item VEGGIE_SANDWICH = registerItem("veggie_sandwich", new Item(new FabricItemSettings().food(ModFoodComponents.VEGGIE_SANDWICH)));
+    public static final Item HAM_AND_CHEESE_SANDWICH = registerItem("ham_and_cheese_sandwich", new Item(new FabricItemSettings().food(ModFoodComponents.HAM_AND_CHEESE_SANDWICH)));
+    public static final Item BACONATOR = registerItem("baconator", new Item(new FabricItemSettings().food(ModFoodComponents.BACONATOR)));
+    public static final Item BACON_LETTUCE_TOMATO = registerItem("bacon_lettuce_tomato", new Item(new FabricItemSettings().food(ModFoodComponents.BACON_LETTUCE_TOMATO)));
+    public static final Item HAMBURGER = registerItem("hamburger", new Item(new FabricItemSettings().food(ModFoodComponents.HAMBURGER)));
+    public static final Item GRAPE_JAM_SANDWICH = registerItem("grape_jam_sandwich", new Item(new FabricItemSettings().food(ModFoodComponents.GRAPE_JAM_SANDWICH)));
+    public static final Item SWEET_BERRY_JAM_SANDWICH = registerItem("sweet_berry_jam_sandwich", new Item(new FabricItemSettings().food(ModFoodComponents.SWEET_BERRY_JAM_SANDWICH)));
+    public static final Item GLOW_BERRY_JAM_SANDWICH = registerItem("glow_berry_jam_sandwich", new Item(new FabricItemSettings().food(ModFoodComponents.GLOW_BERRY_JAM_SANDWICH)));
+    public static final Item MANGO_JAM_SANDWICH = registerItem("mango_jam_sandwich", new Item(new FabricItemSettings().food(ModFoodComponents.MANGO_JAM_SANDWICH)));
+    //SOUPS
+    public static final Item ONION_SOUP = registerItem("onion_soup", new Item(new FabricItemSettings().food(ModFoodComponents.ONION_SOUP)));
+    public static final Item VEGGIE_SOUP = registerItem("veggie_soup", new Item(new FabricItemSettings().food(ModFoodComponents.VEGGIE_SOUP)));
+    public static final Item CHICKEN_SOUP = registerItem("chicken_soup", new Item(new FabricItemSettings().food(ModFoodComponents.CHICKEN_SOUP)));
+    public static final Item FISH_SOUP = registerItem("fish_soup", new Item(new FabricItemSettings().food(ModFoodComponents.FISH_SOUP)));
+    public static final Item PUMPKIN_SOUP = registerItem("pumpkin_soup", new Item(new FabricItemSettings().food(ModFoodComponents.PUMPKIN_SOUP)));
+    public static final Item TOMATO_SOUP = registerItem("tomato_soup", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO_SOUP)));
+    //SUSHI
+    public static final Item FISH_SUSHI = registerItem("fish_sushi", new Item(new FabricItemSettings().food(ModFoodComponents.FISH_SUSHI)));
+    public static final Item CHICKEN_SUSHI = registerItem("chicken_sushi", new Item(new FabricItemSettings().food(ModFoodComponents.CHICKEN_SUSHI)));
+    public static final Item VEGGIE_SUSHI = registerItem("veggie_sushi", new Item(new FabricItemSettings().food(ModFoodComponents.VEGGIE_SUSHI)));
 
 
     private static Item registerItem(String name, Item item){
