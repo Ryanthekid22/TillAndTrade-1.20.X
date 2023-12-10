@@ -117,7 +117,6 @@ public class ModItemGroups {
                         entries.add(ModItems.DIAMOND_KNIFE);
                         entries.add(ModItems.NETHERITE_KNIFE);
                         entries.add(ModItems.FRUIT_STICK);
-                        entries.add(ModItems.FERTILISED_SOIL);
 
                         //REST
                         entries.add(ModBlocks.MANGO_LOG);

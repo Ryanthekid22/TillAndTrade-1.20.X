@@ -123,8 +123,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DIAMOND_KNIFE, Models.GENERATED);
         itemModelGenerator.register(ModItems.NETHERITE_KNIFE, Models.GENERATED);
         itemModelGenerator.register(ModItems.FRUIT_STICK, Models.GENERATED);
-        itemModelGenerator.register(ModItems.FERTILISED_SOIL, Models.GENERATED);
-
 
     }
 }

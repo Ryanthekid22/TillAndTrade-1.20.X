@@ -111,8 +111,6 @@ public class ModItems {
     public static final Item DIAMOND_KNIFE = registerItem("diamond_knife", new Item(new FabricItemSettings()));
     public static final Item NETHERITE_KNIFE = registerItem("netherite_knife", new Item(new FabricItemSettings()));
     public static final Item FRUIT_STICK = registerItem("fruit_stick", new Item(new FabricItemSettings()));
-    public static final Item FERTILISED_SOIL = registerItem("fertilised_soil", new Item(new FabricItemSettings()));
-
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(RyansTillAndTrade.MOD_ID, name), item);
