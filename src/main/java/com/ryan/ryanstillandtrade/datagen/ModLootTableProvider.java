@@ -51,4 +51,5 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
 
     }
+
 }

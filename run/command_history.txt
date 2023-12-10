@@ -38,3 +38,12 @@
 /gamemode creative
 /gamemode survival
 /gamemode creative
+/time set day
+/gamemode survival
+/gamemode creative
+/kill @e[type=!minecraft:player]
+/kill @e[type=item]
+/time set day
+/gamemode survival
+/kill @e[type=item]
+/gamemode creative
