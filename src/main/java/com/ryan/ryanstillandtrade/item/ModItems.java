@@ -97,6 +97,22 @@ public class ModItems {
     public static final Item DUCK = registerItem("duck", new Item(new FabricItemSettings().food(ModFoodComponents.DUCK)));
     public static final Item COOKED_DUCK = registerItem("cooked_duck", new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_DUCK)));
     public static final Item FISH_FILLET = registerItem("fish_fillet", new Item(new FabricItemSettings().food(ModFoodComponents.FISH_FILLET)));
+    //FARMING
+    public static final Item IRON_SCYTHE_BLADE = registerItem("iron_scythe_blade", new Item(new FabricItemSettings()));
+    public static final Item GOLD_SCYTHE_BLADE = registerItem("gold_scythe_blade", new Item(new FabricItemSettings()));
+    public static final Item DIAMOND_SCYTHE_BLADE = registerItem("diamond_scythe_blade", new Item(new FabricItemSettings()));
+    public static final Item NETHERITE_SCYTHE_BLADE = registerItem("netherite_scythe_blade", new Item(new FabricItemSettings()));
+    public static final Item IRON_SCYTHE = registerItem("iron_scythe", new Item(new FabricItemSettings()));
+    public static final Item GOLD_SCYTHE = registerItem("gold_scythe", new Item(new FabricItemSettings()));
+    public static final Item DIAMOND_SCYTHE = registerItem("diamond_scythe", new Item(new FabricItemSettings()));
+    public static final Item NETHERITE_SCYTHE = registerItem("netherite_scythe", new Item(new FabricItemSettings()));
+    public static final Item IRON_KNIFE = registerItem("iron_knife", new Item(new FabricItemSettings()));
+    public static final Item GOLD_KNIFE = registerItem("gold_knife", new Item(new FabricItemSettings()));
+    public static final Item DIAMOND_KNIFE = registerItem("diamond_knife", new Item(new FabricItemSettings()));
+    public static final Item NETHERITE_KNIFE = registerItem("netherite_knife", new Item(new FabricItemSettings()));
+    public static final Item FRUIT_STICK = registerItem("fruit_stick", new Item(new FabricItemSettings()));
+    public static final Item FERTILISED_SOIL = registerItem("fertilised_soil", new Item(new FabricItemSettings()));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(RyansTillAndTrade.MOD_ID, name), item);

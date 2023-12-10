@@ -109,7 +109,21 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DUCK, Models.GENERATED);
         itemModelGenerator.register(ModItems.COOKED_DUCK, Models.GENERATED);
         itemModelGenerator.register(ModItems.FISH_FILLET, Models.GENERATED);
-
+        //FARMING
+        itemModelGenerator.register(ModItems.IRON_SCYTHE_BLADE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GOLD_SCYTHE_BLADE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DIAMOND_SCYTHE_BLADE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.NETHERITE_SCYTHE_BLADE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.IRON_SCYTHE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GOLD_SCYTHE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DIAMOND_SCYTHE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.NETHERITE_SCYTHE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.IRON_KNIFE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GOLD_KNIFE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DIAMOND_KNIFE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.NETHERITE_KNIFE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FRUIT_STICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FERTILISED_SOIL, Models.GENERATED);
 
 
     }

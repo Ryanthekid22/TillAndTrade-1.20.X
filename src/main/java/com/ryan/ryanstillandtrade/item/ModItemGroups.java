@@ -103,7 +103,21 @@ public class ModItemGroups {
                         entries.add(ModItems.DUCK);
                         entries.add(ModItems.COOKED_DUCK);
                         entries.add(ModItems.FISH_FILLET);
-
+                        //FARMING
+                        entries.add(ModItems.IRON_SCYTHE_BLADE);
+                        entries.add(ModItems.GOLD_SCYTHE_BLADE);
+                        entries.add(ModItems.DIAMOND_SCYTHE_BLADE);
+                        entries.add(ModItems.NETHERITE_SCYTHE_BLADE);
+                        entries.add(ModItems.IRON_SCYTHE);
+                        entries.add(ModItems.GOLD_SCYTHE);
+                        entries.add(ModItems.DIAMOND_SCYTHE);
+                        entries.add(ModItems.NETHERITE_SCYTHE);
+                        entries.add(ModItems.IRON_KNIFE);
+                        entries.add(ModItems.GOLD_KNIFE);
+                        entries.add(ModItems.DIAMOND_KNIFE);
+                        entries.add(ModItems.NETHERITE_KNIFE);
+                        entries.add(ModItems.FRUIT_STICK);
+                        entries.add(ModItems.FERTILISED_SOIL);
 
                         //REST
                         entries.add(ModBlocks.MANGO_LOG);
