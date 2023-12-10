@@ -117,6 +117,30 @@ public class ModItemGroups {
                         entries.add(ModItems.DIAMOND_KNIFE);
                         entries.add(ModItems.NETHERITE_KNIFE);
                         entries.add(ModItems.FRUIT_STICK);
+                        //MEALPREP
+                        entries.add(ModItems.CHURN_BASE);
+                        //MINING
+                        entries.add(ModItems.CHISEL);
+                        entries.add(ModItems.CRUSHING_WHEEL);
+                        entries.add(ModItems.SIEVE);
+                        //WEARABLES
+                        entries.add(ModItems.RUBY_ARMOR_TRIM);
+                        entries.add(ModItems.TOPAZ_ARMOR_TRIM);
+                        entries.add(ModItems.SAPPHIRE_ARMOR_TRIM);
+                        entries.add(ModItems.AMETHYST_ARMOR_TRIM);
+                        //CROWN
+                        entries.add(ModItems.RUBY_CROWN);
+                        entries.add(ModItems.TOPAZ_CROWN);
+                        entries.add(ModItems.SAPPHIRE_CROWN);
+                        entries.add(ModItems.AMETHYST_CROWN);
+                        entries.add(ModItems.GOLD_CROWN);
+                        entries.add(ModItems.DIAMOND_CROWN);
+                        entries.add(ModItems.EMERALD_CROWN);
+                        //misc
+                        entries.add(ModItems.CUT_RUBY);
+                        entries.add(ModItems.CUT_TOPAZ);
+                        entries.add(ModItems.CUT_SAPPHIRE);
+                        entries.add(ModItems.CUT_AMETHYST);
 
                         //REST
                         entries.add(ModBlocks.MANGO_LOG);

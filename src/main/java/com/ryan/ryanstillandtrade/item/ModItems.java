@@ -111,6 +111,32 @@ public class ModItems {
     public static final Item DIAMOND_KNIFE = registerItem("diamond_knife", new Item(new FabricItemSettings()));
     public static final Item NETHERITE_KNIFE = registerItem("netherite_knife", new Item(new FabricItemSettings()));
     public static final Item FRUIT_STICK = registerItem("fruit_stick", new Item(new FabricItemSettings()));
+    //MEALPREP
+    public static final Item CHURN_BASE = registerItem("churn_base", new Item(new FabricItemSettings()));
+    //MINING
+    public static final Item CHISEL = registerItem("chisel", new Item(new FabricItemSettings()));
+    public static final Item CRUSHING_WHEEL = registerItem("crushing_wheel", new Item(new FabricItemSettings()));
+    public static final Item SIEVE = registerItem("sieve", new Item(new FabricItemSettings()));
+    //WEARABLES
+    public static final Item RUBY_ARMOR_TRIM = registerItem("ruby_armor_trim", new Item(new FabricItemSettings()));
+    public static final Item TOPAZ_ARMOR_TRIM = registerItem("topaz_armor_trim", new Item(new FabricItemSettings()));
+    public static final Item SAPPHIRE_ARMOR_TRIM = registerItem("sapphire_armor_trim", new Item(new FabricItemSettings()));
+    public static final Item AMETHYST_ARMOR_TRIM = registerItem("amethyst_armor_trim", new Item(new FabricItemSettings()));
+    //CROWN
+    public static final Item RUBY_CROWN = registerItem("ruby_crown", new Item(new FabricItemSettings()));
+    public static final Item TOPAZ_CROWN = registerItem("topaz_crown", new Item(new FabricItemSettings()));
+    public static final Item SAPPHIRE_CROWN = registerItem("sapphire_crown", new Item(new FabricItemSettings()));
+    public static final Item AMETHYST_CROWN = registerItem("amethyst_crown", new Item(new FabricItemSettings()));
+    public static final Item GOLD_CROWN = registerItem("gold_crown", new Item(new FabricItemSettings()));
+    public static final Item DIAMOND_CROWN = registerItem("diamond_crown", new Item(new FabricItemSettings()));
+    public static final Item EMERALD_CROWN = registerItem("emerald_crown", new Item(new FabricItemSettings()));
+    //misc
+    public static final Item CUT_RUBY = registerItem("cut_ruby", new Item(new FabricItemSettings()));
+    public static final Item CUT_TOPAZ = registerItem("cut_topaz", new Item(new FabricItemSettings()));
+    public static final Item CUT_SAPPHIRE = registerItem("cut_sapphire", new Item(new FabricItemSettings()));
+    public static final Item CUT_AMETHYST = registerItem("cut_amethyst", new Item(new FabricItemSettings()));
+
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(RyansTillAndTrade.MOD_ID, name), item);

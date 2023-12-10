@@ -123,6 +123,30 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DIAMOND_KNIFE, Models.GENERATED);
         itemModelGenerator.register(ModItems.NETHERITE_KNIFE, Models.GENERATED);
         itemModelGenerator.register(ModItems.FRUIT_STICK, Models.GENERATED);
+        //MEALPREP
+        itemModelGenerator.register(ModItems.CHURN_BASE, Models.GENERATED);
+        //MINING
+        itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CRUSHING_WHEEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SIEVE, Models.GENERATED);
+        //WEARABLES
+        itemModelGenerator.register(ModItems.RUBY_ARMOR_TRIM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TOPAZ_ARMOR_TRIM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SAPPHIRE_ARMOR_TRIM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AMETHYST_ARMOR_TRIM, Models.GENERATED);
+        //CROWN
+        itemModelGenerator.register(ModItems.RUBY_CROWN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TOPAZ_CROWN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SAPPHIRE_CROWN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AMETHYST_CROWN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GOLD_CROWN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DIAMOND_CROWN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_CROWN, Models.GENERATED);
+        //misc
+        itemModelGenerator.register(ModItems.CUT_RUBY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CUT_TOPAZ, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CUT_SAPPHIRE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CUT_AMETHYST, Models.GENERATED);
 
     }
 }
