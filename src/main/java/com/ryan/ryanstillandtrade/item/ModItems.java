@@ -1,7 +1,9 @@
 package com.ryan.ryanstillandtrade.item;
 
 import com.ryan.ryanstillandtrade.RyansTillAndTrade;
+import com.ryan.ryanstillandtrade.block.ModBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.FoodComponents;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -134,13 +136,13 @@ public class ModItems {
     //GROWABLES
     public static final Item MANGO_TREE_SAPLING = registerItem("mango_tree_sapling", new Item(new FabricItemSettings()));
     public static final Item ORANGE_TREE_SAPLING = registerItem("orange_tree_sapling", new Item(new FabricItemSettings()));
-    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", new Item(new FabricItemSettings()));
-    public static final Item PINEAPPLE_SEEDS = registerItem("pineapple_seeds", new Item(new FabricItemSettings()));
-    public static final Item GRAPE_SEEDS = registerItem("grape_seeds", new Item(new FabricItemSettings()));
-    public static final Item BROCCOLI_SEEDS = registerItem("broccoli_seeds", new Item(new FabricItemSettings()));
-    public static final Item CAULIFLOWER_SEEDS = registerItem("cauliflower_seeds", new Item(new FabricItemSettings()));
-    public static final Item ASPARAGUS_SEEDS = registerItem("asparagus_seeds", new Item(new FabricItemSettings()));
-    public static final Item LETTUCE_SEEDS = registerItem("lettuce_seeds", new Item(new FabricItemSettings()));
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
+    public static final Item PINEAPPLE_SEEDS = registerItem("pineapple_seeds", new AliasedBlockItem(ModBlocks.PINEAPPLE_CROP, new FabricItemSettings()));
+    public static final Item GRAPE_SEEDS = registerItem("grape_seeds", new AliasedBlockItem(ModBlocks.GRAPE_CROP, new FabricItemSettings()));
+    public static final Item BROCCOLI_SEEDS = registerItem("broccoli_seeds", new AliasedBlockItem(ModBlocks.BROCCOLI_CROP, new FabricItemSettings()));
+    public static final Item CAULIFLOWER_SEEDS = registerItem("cauliflower_seeds", new AliasedBlockItem(ModBlocks.CAULIFLOWER_CROP, new FabricItemSettings()));
+    public static final Item ASPARAGUS_SEEDS = registerItem("asparagus_seeds", new AliasedBlockItem(ModBlocks.ASPARAGUS_CROP, new FabricItemSettings()));
+    public static final Item LETTUCE_SEEDS = registerItem("lettuce_seeds", new AliasedBlockItem(ModBlocks.LETTUCE_CROP, new FabricItemSettings()));
 
 
 

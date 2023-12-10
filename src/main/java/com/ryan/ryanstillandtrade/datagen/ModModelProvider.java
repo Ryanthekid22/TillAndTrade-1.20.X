@@ -1,6 +1,7 @@
 package com.ryan.ryanstillandtrade.datagen;
 
 import com.ryan.ryanstillandtrade.block.ModBlocks;
+import com.ryan.ryanstillandtrade.block.custom.TomatoCropBlock;
 import com.ryan.ryanstillandtrade.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -17,6 +18,15 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MANGO_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MANGO_LOG);
+
+        blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROP, TomatoCropBlock.AGE,1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.PINEAPPLE_CROP, TomatoCropBlock.AGE,1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.LETTUCE_CROP, TomatoCropBlock.AGE,1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.GRAPE_CROP, TomatoCropBlock.AGE,1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER_CROP, TomatoCropBlock.AGE,1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.BROCCOLI_CROP, TomatoCropBlock.AGE,1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.ASPARAGUS_CROP, TomatoCropBlock.AGE,1, 2, 3, 4, 5);
+
     }
 
     @Override
