@@ -1,4 +1,4 @@
-// 1.20.3	2023-12-10T14:01:40.032996184	Ryans Till And Trade/Model Definitions
+// 1.20.3	2023-12-10T14:11:03.543893061	Ryans Till And Trade/Model Definitions
 45be91d17f5912532c3a8dcb28abd808805e0dba assets/ryanstillandtrade/models/item/carrot_cake.json
 01e2e1fe6026cc0f4763a9453338a337efc54a10 assets/ryanstillandtrade/models/item/kelp_juice.json
 f7e175886a61b66dbbb2dfd3ecdfaec4bf272cc7 assets/ryanstillandtrade/models/block/mango_planks.json
@@ -30,6 +30,7 @@ dbbca20fa98991a19b9fed833dc61e0b34a09dea assets/ryanstillandtrade/models/item/fr
 d577f883def0b3d076fea73fc8fd492ee925be2e assets/ryanstillandtrade/models/item/pineapple.json
 cfb5a5fd7618fa76eeb3798c195bb9b12b9f1aae assets/ryanstillandtrade/models/item/fish_soup.json
 7b171e5a5b5fc3e8662385a0e1b650e47f499b11 assets/ryanstillandtrade/models/item/sweet_berry_jam.json
+313c0d96b9a1426636ae3e4befaebf0ac2619102 assets/ryanstillandtrade/models/item/veggie_sushi.json
 ff2a06aad3612accdc58a4dabb30bde53e265cbb assets/ryanstillandtrade/models/item/carrot_juice.json
 9417d0145b84e5c9ce86db3503e1ecd4f8e2b510 assets/ryanstillandtrade/models/item/bamboo_shoots.json
 cba96fb3ce1432ecba84dc03f252001ef6781896 assets/ryanstillandtrade/models/item/mango_jam.json
@@ -47,6 +48,7 @@ d1ee0e3e0c28aae7ac5308da847c20fa70af7920 assets/ryanstillandtrade/models/item/gl
 3f0d28df0e2609038b70f7a1f55470864a05d038 assets/ryanstillandtrade/models/item/roasted_cauliflower.json
 2ea928bf679ebd38e62389a1521ec21be25617df assets/ryanstillandtrade/models/item/mango_log.json
 56edd2a40594a17fcbd8009f2dcb191c58547b97 assets/ryanstillandtrade/models/item/veggie_sandwich.json
+176a770170b044a3ad57fc9a0d39247aaa51a606 assets/ryanstillandtrade/models/item/chicken_sushi.json
 db13e0c5d89947ab2a6f4bcc8ccc8b7d177f18fb assets/ryanstillandtrade/models/item/pineapple_juice.json
 f4d761011f112c3ec69b5f989573f205bfadf509 assets/ryanstillandtrade/models/item/omelette.json
 8d31f10686336a5895488d6a3d7cde3622e32916 assets/ryanstillandtrade/models/item/fried_egg.json
@@ -61,10 +63,11 @@ aa9daf0713ea157e1f212a4961e1901b50417446 assets/ryanstillandtrade/models/item/ch
 ab9ddfeb9e9fccdc85b77d327ae2f234d25ee171 assets/ryanstillandtrade/models/item/onion.json
 09d5bff5614c4a5753cd464e18be80b8e7cc5bc5 assets/ryanstillandtrade/models/block/mango_log.json
 d54f8a77ce6096f83e5ed397bcaf95b2f83f8b48 assets/ryanstillandtrade/models/item/grape_juice.json
+0f92362c11c90659c45fb0e098c5407d04c32654 assets/ryanstillandtrade/models/item/fish_sushi.json
 0bfa62628f2fb4055ec090e493bbf13139f5e60c assets/ryanstillandtrade/models/item/mango.json
 097c88cdbd392fdac1480389c76e737454ee1153 assets/ryanstillandtrade/blockstates/mango_log.json
 cdacfd7033779fadcd4a73d1a952bc3049dbb56e assets/ryanstillandtrade/models/item/grape.json
-5fb57c546e4afa41bdec51d7689ac6030752495d assets/ryanstillandtrade/models/item/ketchup.json
 9e45af98d997f3a92bc7befd67c745a580d37f5c assets/ryanstillandtrade/models/item/butter.json
+5fb57c546e4afa41bdec51d7689ac6030752495d assets/ryanstillandtrade/models/item/ketchup.json
 1b0ee2759be0c221241ba55b2d07babca36d2bca assets/ryanstillandtrade/models/item/fruit_salad.json
 95a7ae1beca6e753e1b846c1349f26b2250fd124 assets/ryanstillandtrade/models/item/onion_soup.json
