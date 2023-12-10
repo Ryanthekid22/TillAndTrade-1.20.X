@@ -124,10 +124,6 @@ public class ModItemGroups {
                         entries.add(ModItems.CRUSHING_WHEEL);
                         entries.add(ModItems.SIEVE);
                         //WEARABLES
-                        entries.add(ModItems.RUBY_ARMOR_TRIM);
-                        entries.add(ModItems.TOPAZ_ARMOR_TRIM);
-                        entries.add(ModItems.SAPPHIRE_ARMOR_TRIM);
-                        entries.add(ModItems.AMETHYST_ARMOR_TRIM);
                         //CROWN
                         entries.add(ModItems.RUBY_CROWN);
                         entries.add(ModItems.TOPAZ_CROWN);

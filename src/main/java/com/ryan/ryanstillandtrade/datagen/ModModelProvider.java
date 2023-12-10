@@ -130,10 +130,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CRUSHING_WHEEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.SIEVE, Models.GENERATED);
         //WEARABLES
-        itemModelGenerator.register(ModItems.RUBY_ARMOR_TRIM, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TOPAZ_ARMOR_TRIM, Models.GENERATED);
-        itemModelGenerator.register(ModItems.SAPPHIRE_ARMOR_TRIM, Models.GENERATED);
-        itemModelGenerator.register(ModItems.AMETHYST_ARMOR_TRIM, Models.GENERATED);
         //CROWN
         itemModelGenerator.register(ModItems.RUBY_CROWN, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOPAZ_CROWN, Models.GENERATED);

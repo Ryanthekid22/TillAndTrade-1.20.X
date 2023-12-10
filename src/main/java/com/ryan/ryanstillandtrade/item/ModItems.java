@@ -118,10 +118,6 @@ public class ModItems {
     public static final Item CRUSHING_WHEEL = registerItem("crushing_wheel", new Item(new FabricItemSettings()));
     public static final Item SIEVE = registerItem("sieve", new Item(new FabricItemSettings()));
     //WEARABLES
-    public static final Item RUBY_ARMOR_TRIM = registerItem("ruby_armor_trim", new Item(new FabricItemSettings()));
-    public static final Item TOPAZ_ARMOR_TRIM = registerItem("topaz_armor_trim", new Item(new FabricItemSettings()));
-    public static final Item SAPPHIRE_ARMOR_TRIM = registerItem("sapphire_armor_trim", new Item(new FabricItemSettings()));
-    public static final Item AMETHYST_ARMOR_TRIM = registerItem("amethyst_armor_trim", new Item(new FabricItemSettings()));
     //CROWN
     public static final Item RUBY_CROWN = registerItem("ruby_crown", new Item(new FabricItemSettings()));
     public static final Item TOPAZ_CROWN = registerItem("topaz_crown", new Item(new FabricItemSettings()));

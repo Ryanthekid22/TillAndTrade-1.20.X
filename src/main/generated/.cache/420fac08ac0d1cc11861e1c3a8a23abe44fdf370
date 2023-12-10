@@ -1,4 +1,4 @@
-// 1.20.3	2023-12-10T19:56:59.475174624	Ryans Till And Trade/Model Definitions
+// 1.20.3	2023-12-10T20:01:47.233631383	Ryans Till And Trade/Model Definitions
 aa5f19639027f1aec761db9f69839cdac0e1e282 assets/ryanstillandtrade/models/item/fish_fillet.json
 beb6028c73e9b2eeb6d12f19301dae1ed598d9f7 assets/ryanstillandtrade/models/item/cut_amethyst.json
 f7e175886a61b66dbbb2dfd3ecdfaec4bf272cc7 assets/ryanstillandtrade/models/block/mango_planks.json
@@ -11,7 +11,6 @@ f7e175886a61b66dbbb2dfd3ecdfaec4bf272cc7 assets/ryanstillandtrade/models/block/m
 190cb1f254b00baa1dab323f144b8fce553ce298 assets/ryanstillandtrade/models/item/grape_jam_sandwich.json
 f8c477d282f9a4c2dea3c5e6a37231bef7578f9f assets/ryanstillandtrade/models/item/cooked_bacon.json
 6490c499db8b915c8e7f3d115250d6d506a91c7d assets/ryanstillandtrade/models/item/topaz_crown.json
-3c67aac111c4da20f2fa7479a6a366c307f636b2 assets/ryanstillandtrade/models/item/ruby_armor_trim.json
 127b0425feacf18d96a399b7b33daf6d7fd34654 assets/ryanstillandtrade/models/item/gold_knife.json
 03675d0affbd44823c6ec8124c2754eac0bd3a1d assets/ryanstillandtrade/models/item/apple_juice.json
 291651aa89ae058a3798e83eb4bf76bd35d3af69 assets/ryanstillandtrade/models/item/sweet_berry_juice.json
@@ -33,7 +32,6 @@ cba96fb3ce1432ecba84dc03f252001ef6781896 assets/ryanstillandtrade/models/item/ma
 9715b90b3f833ff67229da8ea7b4cce98957cb7e assets/ryanstillandtrade/models/item/apple_sauce.json
 ce78ee53ff52beb6de49135995ded55ab2236118 assets/ryanstillandtrade/models/item/ruby_crown.json
 d35e00cf4168d0e780ebc26518dcbd5ed665c4b2 assets/ryanstillandtrade/models/item/sieve.json
-9b54c5db74e7ee31096d43c341cc738e5e3bff9e assets/ryanstillandtrade/models/item/amethyst_armor_trim.json
 e6c0f2983f0d204430310095188cbba341514239 assets/ryanstillandtrade/models/item/fish_burger.json
 cb0d4c4f171af6b3ae0e1bb99122ce5040a0a27c assets/ryanstillandtrade/models/item/tomato_juice.json
 a4fc4bd0188687b1eedbb791c10af9b1d0359811 assets/ryanstillandtrade/models/item/grape_jam.json
@@ -48,7 +46,6 @@ abe2907a9704ad3bda22e3ccf43e196e0b7e484a assets/ryanstillandtrade/models/item/ne
 748490d061967461bb6e94d266931d79d5bc9f42 assets/ryanstillandtrade/models/item/cheese.json
 aa9daf0713ea157e1f212a4961e1901b50417446 assets/ryanstillandtrade/models/item/chicken_soup.json
 b50a78e7db760715ba4655685af77fcde95c6a8d assets/ryanstillandtrade/models/item/diamond_knife.json
-b0f6ec2d62062f9d209f3dc922e6bba36b24aca6 assets/ryanstillandtrade/models/item/topaz_armor_trim.json
 0bfa62628f2fb4055ec090e493bbf13139f5e60c assets/ryanstillandtrade/models/item/mango.json
 ffce4933eea1009ab897b3c0b96b4ef6260b249b assets/ryanstillandtrade/models/item/cooked_ham.json
 a82723f555e2c831000088fd812d8f4bf11633af assets/ryanstillandtrade/models/item/fruit_stick.json
@@ -67,7 +64,6 @@ b817c832dd5b265da44cb2ba005c747d6ba56992 assets/ryanstillandtrade/models/item/pa
 0410d4a192eaca1c0674e2374040bf32c0afbd86 assets/ryanstillandtrade/models/item/roasted_onion.json
 6ade1d354bcf5155f263b7c04775fdcf6bff845a assets/ryanstillandtrade/models/item/tomato.json
 23f6e1203dc52edffd4a4bfdbccbd7b334ed3f08 assets/ryanstillandtrade/models/item/gold_scythe.json
-bb5bc30addea8ebe54da65e96c40447825e52be8 assets/ryanstillandtrade/models/item/sapphire_armor_trim.json
 e0f9a9c9510d8e14795f249928fc37dc12beccb2 assets/ryanstillandtrade/models/item/potato_slices.json
 963dca91ac3c1a39e716feb6270ba8ab3c15f0ec assets/ryanstillandtrade/models/item/glow_berry_juice.json
 3a7b750fe44041178776c1d3cd71963a104a39a0 assets/ryanstillandtrade/models/item/netherite_scythe.json
