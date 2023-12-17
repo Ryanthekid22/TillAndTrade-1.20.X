@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "ryanstillandtrade:block/pineapple_crop_stage3"
+  }
+}

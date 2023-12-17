@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "b": {
+      "item": "minecraft:gold_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "bbb",
+    "s b",
+    "s  "
+  ],
+  "result": {
+    "item": "ryanstillandtrade:gold_scythe"
+  }
+}

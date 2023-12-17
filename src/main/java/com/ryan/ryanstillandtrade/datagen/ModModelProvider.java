@@ -1,7 +1,7 @@
 package com.ryan.ryanstillandtrade.datagen;
 
 import com.ryan.ryanstillandtrade.block.ModBlocks;
-import com.ryan.ryanstillandtrade.block.custom.TomatoCropBlock;
+import com.ryan.ryanstillandtrade.block.custom.*;
 import com.ryan.ryanstillandtrade.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -19,13 +19,13 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MANGO_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MANGO_LOG);
 
-        blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROP, TomatoCropBlock.AGE,1, 2, 3, 4, 5);
-        blockStateModelGenerator.registerCrop(ModBlocks.PINEAPPLE_CROP, TomatoCropBlock.AGE,1, 2, 3, 4, 5);
-        blockStateModelGenerator.registerCrop(ModBlocks.LETTUCE_CROP, TomatoCropBlock.AGE,1, 2, 3, 4, 5);
-        blockStateModelGenerator.registerCrop(ModBlocks.GRAPE_CROP, TomatoCropBlock.AGE,1, 2, 3, 4, 5);
-        blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER_CROP, TomatoCropBlock.AGE,1, 2, 3, 4, 5);
-        blockStateModelGenerator.registerCrop(ModBlocks.BROCCOLI_CROP, TomatoCropBlock.AGE,1, 2, 3, 4, 5);
-        blockStateModelGenerator.registerCrop(ModBlocks.ASPARAGUS_CROP, TomatoCropBlock.AGE,1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROP, TomatoCropBlock.AGE,0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.PINEAPPLE_CROP, PineappleCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.LETTUCE_CROP, LettuceCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.GRAPE_CROP, GrapeCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER_CROP, CauliflowerCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.BROCCOLI_CROP, BroccoliCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.ASPARAGUS_CROP, AsparagusCropBlock.AGE, 0, 1, 2, 3, 4, 5);
 
     }
 
@@ -120,10 +120,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.COOKED_DUCK, Models.GENERATED);
         itemModelGenerator.register(ModItems.FISH_FILLET, Models.GENERATED);
         //FARMING
-        itemModelGenerator.register(ModItems.IRON_SCYTHE_BLADE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.GOLD_SCYTHE_BLADE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.DIAMOND_SCYTHE_BLADE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.NETHERITE_SCYTHE_BLADE, Models.GENERATED);
         itemModelGenerator.register(ModItems.IRON_SCYTHE, Models.GENERATED);
         itemModelGenerator.register(ModItems.GOLD_SCYTHE, Models.GENERATED);
         itemModelGenerator.register(ModItems.DIAMOND_SCYTHE, Models.GENERATED);
@@ -156,13 +152,6 @@ public class ModModelProvider extends FabricModelProvider {
         //GROWABLES
         itemModelGenerator.register(ModItems.MANGO_TREE_SAPLING, Models.GENERATED);
         itemModelGenerator.register(ModItems.ORANGE_TREE_SAPLING, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TOMATO_SEEDS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PINEAPPLE_SEEDS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.GRAPE_SEEDS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.BROCCOLI_SEEDS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.CAULIFLOWER_SEEDS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.ASPARAGUS_SEEDS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.LETTUCE_SEEDS, Models.GENERATED);
 
     }
 }

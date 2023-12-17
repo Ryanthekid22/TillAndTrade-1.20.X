@@ -104,10 +104,6 @@ public class ModItemGroups {
                         entries.add(ModItems.COOKED_DUCK);
                         entries.add(ModItems.FISH_FILLET);
                         //FARMING
-                        entries.add(ModItems.IRON_SCYTHE_BLADE);
-                        entries.add(ModItems.GOLD_SCYTHE_BLADE);
-                        entries.add(ModItems.DIAMOND_SCYTHE_BLADE);
-                        entries.add(ModItems.NETHERITE_SCYTHE_BLADE);
                         entries.add(ModItems.IRON_SCYTHE);
                         entries.add(ModItems.GOLD_SCYTHE);
                         entries.add(ModItems.DIAMOND_SCYTHE);
